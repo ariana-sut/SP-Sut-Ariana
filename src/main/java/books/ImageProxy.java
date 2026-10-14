@@ -34,4 +34,9 @@ public class ImageProxy implements Element {
     public Element get(int index) {
         throw new UnsupportedOperationException();
     }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visitImageProxy(this);
+    }
 }

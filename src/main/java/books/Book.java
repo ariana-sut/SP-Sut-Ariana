@@ -17,4 +17,12 @@ public class Book extends Section {
     public void addContent(Element element) {
         super.add(element);
     }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visitBook(this);
+        for (Element child : children) {
+            child.accept(visitor);
+        }
+    }
 }

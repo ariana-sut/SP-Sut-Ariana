@@ -9,17 +9,26 @@ public class Table implements Element {
 
     @Override
     public void print() {
-        System.out.println("Table: " + title);
+        System.out.println("Table with title: " + title);
     }
 
     @Override
-    public void add(Element element) {}
+    public void add(Element element) {
+        throw new UnsupportedOperationException();
+    }
 
     @Override
-    public void remove(Element element) {}
+    public void remove(Element element) {
+        throw new UnsupportedOperationException();
+    }
 
     @Override
     public Element get(int index) {
-        return null;
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visitTable(this);
     }
 }
