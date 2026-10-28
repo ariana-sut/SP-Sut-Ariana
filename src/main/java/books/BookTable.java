@@ -1,10 +1,29 @@
 package books;
 
-public class Table implements Element {
+import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
+
+@Entity
+@jakarta.persistence.Table(name = "book_table")
+@NoArgsConstructor(force = true)
+public class BookTable extends Element {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
     private String title;
 
-    public Table(String title) {
+    public BookTable(String title) {
         this.title = title;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
     }
 
     @Override

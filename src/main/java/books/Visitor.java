@@ -7,5 +7,5 @@ public interface Visitor {
     void visitParagraph(Paragraph paragraph);
     void visitImageProxy(ImageProxy imageProxy);
     void visitImage(Image image);
-    void visitTable(Table table);
+    void visitTable(BookTable table);
 }

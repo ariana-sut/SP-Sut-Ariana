@@ -30,7 +30,7 @@ public class BookStatistics implements Visitor {
     }
 
     @Override
-    public void visitTable(Table table) {
+    public void visitTable(BookTable table) {
         numberOfTables++;
     }
 
