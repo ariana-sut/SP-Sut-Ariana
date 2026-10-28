@@ -1,6 +1,21 @@
 package books;
 
-public class TableOfContents implements Element {
+import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "table_of_contents")
+@NoArgsConstructor(force = true)
+public class TableOfContents extends Element {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    public Integer getId() {
+        return id;
+    }
+
     @Override
     public void print() {
         System.out.println("TableOfContents");

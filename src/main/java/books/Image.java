@@ -1,8 +1,18 @@
 package books;
 
+import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
 import java.util.concurrent.TimeUnit;
 
-public class Image implements Element {
+@Entity
+@Table(name = "image")
+@NoArgsConstructor(force = true)
+public class Image extends Element {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
     private String imageName;
 
     public Image(String name) {
@@ -12,6 +22,14 @@ public class Image implements Element {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getImageName() {
+        return imageName;
     }
 
     @Override

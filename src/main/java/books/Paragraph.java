@@ -1,11 +1,28 @@
 package books;
 
-public class Paragraph implements Element {
+import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "paragraph")
+@NoArgsConstructor(force = true)
+public class Paragraph extends Element {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
     private String text;
+
+    @Transient
     private AlignStrategy alignStrategy;
 
     public Paragraph(String text) {
         this.text = text;
+    }
+
+    public Integer getId() {
+        return id;
     }
 
     public String getText() {

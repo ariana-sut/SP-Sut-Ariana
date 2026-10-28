@@ -1,14 +1,35 @@
 package books;
 
+import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Section implements Element {
+@Entity
+@Table(name = "section")
+@Inheritance(strategy = InheritanceType.JOINED)
+@NoArgsConstructor(force = true)
+public class Section extends Element {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    protected Integer id;
+
     protected String title;
+
+    @OneToMany(cascade = CascadeType.ALL)
     protected List<Element> children = new ArrayList<>();
 
     public Section(String title) {
         this.title = title;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
     }
 
     @Override

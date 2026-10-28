@@ -1,7 +1,20 @@
 package books;
 
-public class ImageProxy implements Element {
+import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "image_proxy")
+@NoArgsConstructor(force = true)
+public class ImageProxy extends Element {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
     private String url;
+
+    @Transient
     private Image realImage;
 
     public ImageProxy(String url) {
@@ -13,6 +26,14 @@ public class ImageProxy implements Element {
             realImage = new Image(url);
         }
         return realImage;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getUrl() {
+        return url;
     }
 
     @Override

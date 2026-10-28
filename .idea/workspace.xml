@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="334423ba-84de-4a1c-ad01-133a36fb7b98" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/BookStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/BookStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/ImageProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/ImageProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Paragraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/BookTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/TableOfContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/TableOfContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Visitor.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3LJbzNPpZTmzs2DQNmZYMI9zOvp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Main.executor": "Run",
+    "git-widget-placeholder": "Lab4",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="334423ba-84de-4a1c-ad01-133a36fb7b98" name="Changes" comment="" />
+      <created>1793175380703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793175380703</updated>
+    </task>
+    <servers />
+  </component>
+</project>
