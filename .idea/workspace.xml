@@ -5,54 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="334423ba-84de-4a1c-ad01-133a36fb7b98" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/BookStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/BookStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/ImageProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/ImageProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Paragraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/BookTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/TableOfContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/TableOfContents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/books/persistence/BooksJpaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/books/persistence/CrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3LJbzNPpZTmzs2DQNmZYMI9zOvp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.Main.executor": "Run",
-    "git-widget-placeholder": "Lab4",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Main.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Lab5&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
