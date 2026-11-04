@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="334423ba-84de-4a1c-ad01-133a36fb7b98" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/books/persistence/BooksJpaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/books/persistence/CrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
