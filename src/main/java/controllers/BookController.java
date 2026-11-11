@@ -1,6 +1,7 @@
 package books.controllers;
 
 import books.Book;
+import books.observer.AllBooksSubject;
 import books.persistence.CrudRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,9 +13,11 @@ import java.util.List;
 public class BookController {
 
     private final CrudRepository<Book, Integer> crudRepository;
+    private final AllBooksSubject allBooksSubject;
 
-    public BookController(CrudRepository<Book, Integer> crudRepository) {
+    public BookController(CrudRepository<Book, Integer> crudRepository, AllBooksSubject allBooksSubject) {
         this.crudRepository = crudRepository;
+        this.allBooksSubject = allBooksSubject;
     }
 
     @GetMapping
@@ -31,7 +34,9 @@ public class BookController {
 
     @PostMapping
     public Book createBook(@RequestBody Book book) {
-        return crudRepository.save(book);
+        Book savedBook = crudRepository.save(book);
+        allBooksSubject.add(savedBook);
+        return savedBook;
     }
 
     @DeleteMapping("/{id}")
