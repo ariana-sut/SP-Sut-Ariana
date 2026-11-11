@@ -1,10 +1,12 @@
 package books;
 
+import books.persistence.CrudRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import books.persistence.BooksRepository;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class Main {
@@ -13,7 +15,7 @@ public class Main {
     }
 
     @Bean
-    CommandLineRunner init(BooksRepository booksRepository) {
+    CommandLineRunner init(CrudRepository<Book, Integer> crudRepository) {
         return args -> {
             Book book = new Book("Design Patterns");
             Section cap1 = new Section("Capitolul 1");
@@ -28,12 +30,22 @@ public class Main {
             book.addContent(cap1);
             book.addAuthor(new Author("Erich Gamma"));
 
-            booksRepository.save(book);
+            crudRepository.save(book);
             System.out.println("Cartea a fost salvată cu succes în baza de date H2!");
 
             BookStatistics stats = new BookStatistics();
             book.accept(stats);
             stats.printStatistics();
+        };
+    }
+
+    @Bean
+    public WebMvcConfigurer corsConfigurer() {
+        return new WebMvcConfigurer() {
+            @Override
+            public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/**");
+            }
         };
     }
 }
